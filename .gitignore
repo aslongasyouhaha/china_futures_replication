@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# 运行日志（只是过程输出，结论都在 report.html 与 output/ 中）
+*_log.txt
+*.log
+
+# 计算结果：由原始行情数据衍生，体积大，且原始数据不可公开分发；可用各文件夹的脚本重新生成
+output/
+
+# 未完成的研究，暂不公开
+cta_combo/

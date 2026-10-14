@@ -1,0 +1,5 @@
+# Python 3.9；polars 的接口在 1.0 前后变化较大，请使用相同的大版本
+polars==0.20.26
+numpy==1.24.4
+scipy==1.13.1
+matplotlib==3.7.2
