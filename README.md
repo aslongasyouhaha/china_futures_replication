@@ -6,7 +6,7 @@
 
 ## 复现的论文
 
-每个文件夹对应一篇论文，包含复现脚本、生成报告的 `build_report.py` 和离线报告 `report.html`。
+每个文件夹对应一篇论文，包含复现脚本、生成报告的 `build_report.py` 和离线报告 `report.html`。完整引用、DOI 和免费版本链接见 [papers.md](papers.md)。
 
 ### 市场因子与截面溢价
 
@@ -92,4 +92,4 @@ python carry/build_report.py   # 生成 report.html
 
 - 先按论文原方法复现，再做中国的调整（合约选择、流动性门槛、交易成本等），两者在报告中分开列出。
 - 只复现正式发表在期刊上的论文（commodity_squeeze 除外，已注明）。
-- 论文 PDF 不在仓库中。
+- 论文 PDF 不在仓库中（版权属于出版社或作者），可通过 [papers.md](papers.md) 中的链接获取。
