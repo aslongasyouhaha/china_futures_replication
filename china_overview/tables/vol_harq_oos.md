@@ -9,4 +9,4 @@
 | HARQ-F | 1.007 | 1.032 | 1.004 | 1.015 | 1.030 | 1.035 |
 | HARQ-h | — | 0.995 | 0.988 | — | 0.973 | 1.015 |
 
-每格为该模型的预测损失 ÷ HAR 的损失，取 22 个商品的中位数；小于 1 表示比 HAR 好。1000 日滚动窗口逐日重估；h 为预测天数。QLIKE 是对波动率预测更常用的损失函数，对低估波动惩罚更重。来源：Bollerslev, Patton & Quaedvlieg，Journal of Econometrics，2016 的复现。
+Each cell is the predicted loss of the model ÷ the loss of HAR, taking the median of 22 commodities; less than 1 means better than HAR. The 1000-day rolling window is revalued daily; h is the number of forecast days. QLIKE is a loss function more commonly used for volatility prediction, with a heavier penalty for underestimating volatility. Source: Reproduction of Bollerslev, Patton & Quaedvlieg, Journal of Econometrics, 2016.

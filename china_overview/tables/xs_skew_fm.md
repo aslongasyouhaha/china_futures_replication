@@ -1,11 +1,11 @@
-| | (1)<br>基准三因子 | (2)<br>三因子 + 偏度 |
+| | (1)<br>Benchmark three factors | (2)<br>Three factors + skewness |
 |---|---|---|
 | Constant | -0.585<br>(-0.27) | 0.521<br>(0.25) |
-| 等权 EW | 1.595<br>(0.58) | 0.489<br>(0.18) |
-| 期限结构 TS | 5.248***<br>(3.23) | 5.259***<br>(3.12) |
-| 动量 MOM | 6.320***<br>(3.12) | 6.175***<br>(3.04) |
-| 偏度 SKEW |  | -0.254<br>(-0.16) |
-| 样本数（月） | 239 | 239 |
-| 平均截面 R² | 0.383 | 0.453 |
+| Equal weight EW | 1.595<br>(0.58) | 0.489<br>(0.18) |
+| term structure TS | 5.248***<br>(3.23) | 5.259***<br>(3.12) |
+| Momentum MOM | 6.320***<br>(3.12) | 6.175***<br>(3.04) |
+| Skewness SKEW |  | -0.254<br>(-0.16) |
+| Number of samples (months) | 239 | 239 |
+| Average cross-section R² | 0.383 | 0.453 |
 
-两步法 Fama-MacBeth：先估计各组合对因子的 β，再每月做截面回归，表中为风险价格 λ（年化 %）的时间序列平均。括号内为 Newey-West t 值；\*、\*\*、\*\*\* 分别表示 10%、5%、1% 显著。来源：Fernandez-Perez et al.，Journal of Banking & Finance，2018 的复现。
+Two-step method Fama-MacBeth: first estimate the β of each portfolio on the factor, and then perform cross-sectional regression every month. The table shows the time series average of the risk price λ (annualized %). The Newey-West t values ​​are in parentheses; \*, \*\*, \*\*\* indicate that 10%, 5%, and 1% are significant respectively. Source: Fernandez-Perez et al., Journal of Banking & Finance, replication of 2018.

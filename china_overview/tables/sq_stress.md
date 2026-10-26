@@ -1,6 +1,6 @@
-| | (1)<br>最大偏离<br>中位数 | (2)<br>最大偏离<br>99% 分位 | (3)<br>偏离 > 10%<br>的次数 | (4)<br>月末偏离<br>平均 % | (5)<br>月末被压低<br>的比例 | (6)<br>近月持仓变化<br>中位数 |
+| | (1)<br>Maximum deviation<br>Median | (2)<br>Maximum deviation<br>99% percentile | (3)<br>Number of deviations > 10%<br> | (4)<br>Month-end deviation<br>average % | (5)<br>The proportion of<br> being suppressed at the end of the month | (6)<br>nearby-contract position change<br>Median |
 |---|---|---|---|---|---|---|
-| 压力月：个人须在月末前平仓 | 1.30% | 13.2% | 145 | -0.28***<br>(-6.73) | 60% | -88% |
-| 对照月：再往前一个月 | 0.85% | 7.4% | 18 | 0.09***<br>(3.83) | 51% | -25% |
+| Stress month: individuals must close their positions before the end of the month | 1.30% | 13.2% | 145 | -0.28***<br>(-6.73) | 60% | -88% |
+| Comparative month: the previous month | 0.85% | 7.4% | 18 | 0.09***<br>(3.83) | 51% | -25% |
 
-共 5874 次合约到期，每个合约在两个月份各算一次。偏离 = 近月价格相对"窗口开始前近月/次月比值不变"所推算价格的偏离；压力月偏离大于对照月的占 70%。月末偏离一列括号内为 Newey-West t 值；\*、\*\*、\*\*\* 分别表示 10%、5%、1% 显著。来源：Zimbidis & Sircar，arXiv 工作论文，2026 的复现。
+There are a total of 5874 contract expirations, one for each contract in each of the two months. Deviation = the deviation of the nearby-contract price from the price calculated by "the near-contract/next month ratio remains unchanged before the start of the window"; the deviation in the pressure month is greater than that in the control month accounting for 70%. Month-end deviations in a column of parentheses are Newey-West t values; \*, \*\*, \*\*\* represent 10%, 5%, and 1% significance respectively. Source: Zimbidis & Sircar, arXiv working paper, replication 2026.

@@ -1,7 +1,7 @@
-| | (1)<br>全部资产 | (2)<br>商品 | (3)<br>全部资产<br>控制品种固定效应 | (4)<br>全部资产<br>2005–2015 | (5)<br>全部资产<br>2016–2026 | (6)<br>全部资产<br>不做波动率缩放 |
+| | (1)<br>All assets | (2)<br>Products | (3)<br>All assets<br>Control instrument fixed effects | (4)<br>All assets<br>2005–2015 | (5)<br>All assets<br>2016–2026 | (6)<br>All assets<br>No volatility scaling |
 |---|---|---|---|---|---|---|
-| 过去 12 个月累计收益 | 0.017**<br>(2.28) | 0.017**<br>(2.21) | 0.009<br>(1.12) | 0.025**<br>(2.12) | 0.009<br>(0.91) | 0.005<br>(0.58) |
-| 按月整块自助法 p 值（wild） | 0.018 | 0.015 | 0.131 | 0.022 | 0.185 | 0.306 |
-| 观测数（品种-月） | 9317 | 8460 | 9317 | 2340 | 6977 | 9317 |
+| Cumulative earnings over the past 12 months | 0.017**<br>(2.28) | 0.017**<br>(2.21) | 0.009<br>(1.12) | 0.025**<br>(2.12) | 0.009<br>(0.91) | 0.005<br>(0.58) |
+| Monthly block buffet p-value (wild) | 0.018 | 0.015 | 0.131 | 0.022 | 0.185 | 0.306 |
+| Number of observations (instrument-month) | 9317 | 8460 | 9317 | 2340 | 6977 | 9317 |
 
-混合回归 r(t+1)/σ(t) = α + β·r(t−12, t) + ε，所有品种叠在一起；括号内为按月聚类的 t 值；\*、\*\*、\*\*\* 分别表示 10%、5%、1% 显著。自助法 p 值为单侧、在"无可预测性"的原假设下按月整块重抽得到（论文逐观测重抽，会破坏同月品种间的相关、抬高临界值，见正文）。来源：Huang, Li, Wang & Zhou，Journal of Financial Economics，2020 的复现。
+Pooled regression r(t+1)/σ(t) = α + β·r(t−12, t) + ε, all instruments are stacked together; the t values clustered by month are in parentheses; \*, \*\*, \*\*\* represent 10%, 5%, and 1% significance respectively. The p-value of the bootstrap method is one-sided and obtained by resampling complete monthly cross-sections in blocks under the null hypothesis of "unpredictability" (re-extracting the paper observation by observation will destroy the correlation between instruments in the same month and raise the critical value, see the text). Source: Reproduction of Huang, Li, Wang & Zhou, Journal of Financial Economics, 2020.

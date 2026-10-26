@@ -1,7 +1,7 @@
-| | (1)<br>年化收益 | (2)<br>年化波动 | (3)<br>夏普 | (4)<br>t | (5)<br>最大回撤 |
+| | (1)<br>Annualized return | (2)<br>Annualized fluctuations | (3)<br>Sharpe | (4)<br>t | (5)<br>Maximum drawdown |
 |---|---|---|---|---|---|
-| 截面 carry1-12（参照） | 11.9% | 13.0% | 0.91 | 4.16*** | −31.7% |
-| 时序 carry：贴水做多、升水做空（阈值 0） | 10.8% | 13.2% | 0.82 | 3.73*** | −33.0% |
-| 时序 carry：高于自身历史均值做多、否则做空 | 8.2% | 11.7% | 0.70 | 3.16*** | −35.7% |
+| Section carry1-12 (reference) | 11.9% | 13.0% | 0.91 | 4.16*** | −31.7% |
+| Time sequence carry: go long at discount, short at premium (threshold 0) | 10.8% | 13.2% | 0.82 | 3.73*** | −33.0% |
+| Time series carry: go long if it is higher than its own historical average, otherwise go short | 8.2% | 11.7% | 0.70 | 3.16*** | −35.7% |
 
-论文口径：不扣成本、月末收盘成交；商品，2006-01 至 2026-09。carry = ln(近月价 ÷ 远月价) × 12 ÷ 相隔月数。\*、\*\*、\*\*\* 分别表示 10%、5%、1% 显著。来源：Koijen et al.，Journal of Financial Economics，2018 的复现（数字取自复现报告）。
+Paper-style specification: without deducting costs, closing transaction at the end of the month; commodities, 2006-01 to 2026-09. carry = ln(nearby-contract price ÷ deferred-contract price) × 12 ÷ number of months apart. \*, \*\*, \*\*\* represent 10%, 5%, and 1% significance respectively. Source: Replication of Koijen et al., Journal of Financial Economics, 2018 (numbers taken from replication report).

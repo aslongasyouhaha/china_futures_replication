@@ -1,16 +1,16 @@
-| | (1)<br>到期次数 | (2)<br>压力月比对照月<br>多出的偏离（中位数） | (3)<br>压力月偏离<br>（中位数） |
+| | (1)<br>Expiration times | (2)<br>Deviation (median) of the <br>stress month from the control month<br> | (3)<br>Stress month deviation<br>(median) |
 |---|---|---|---|
-| 低硫燃料油（LU） | 70 | 3.85% | 5.50% |
-| 生猪（LH） | 31 | 2.55% | 5.94% |
-| 焦煤（JM） | 74 | 2.46% | 4.72% |
-| 焦炭（J） | 56 | 2.46% | 5.01% |
-| 燃料油（FU） | 142 | 2.22% | 4.00% |
-| 苹果（AP） | 57 | 1.87% | 4.68% |
-| 原油（SC） | 95 | 1.72% | 2.96% |
-| 玻璃（FG） | 104 | 1.28% | 2.95% |
-| 铅（PB） | 164 | 0.05% | 0.50% |
-| 铝（AL） | 259 | 0.04% | 0.40% |
-| 丁二烯橡胶（BR） | 34 | 0.02% | 0.70% |
-| 锡（SN） | 88 | -0.02% | 0.37% |
+| Low sulfur fuel oil (LU) | 70 | 3.85% | 5.50% |
+| Live pig (LH) | 31 | 2.55% | 5.94% |
+| Coking coal (JM) | 74 | 2.46% | 4.72% |
+| Coke (J) | 56 | 2.46% | 5.01% |
+| Fuel oil (FU) | 142 | 2.22% | 4.00% |
+| Apple (AP) | 57 | 1.87% | 4.68% |
+| Crude oil (SC) | 95 | 1.72% | 2.96% |
+| Glass(FG) | 104 | 1.28% | 2.95% |
+| Lead(PB) | 164 | 0.05% | 0.50% |
+| Aluminum (AL) | 259 | 0.04% | 0.40% |
+| Butadiene rubber (BR) | 34 | 0.02% | 0.70% |
+| Tin (SN) | 88 | -0.02% | 0.37% |
 
-到期次数 ≥ 30 的品种中，压力月比对照月多出的偏离最大的 8 个和最小的 4 个。来源：Zimbidis & Sircar，arXiv 工作论文，2026 的复现。
+Among the instruments with expiration times ≥ 30, the stress month has the largest 8 deviations and the smallest 4 deviations more than the control month. Source: Zimbidis & Sircar, arXiv working paper, replication 2026.

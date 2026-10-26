@@ -1,11 +1,11 @@
-| | (1)<br>动量<br>次近月（论文方法） | (2)<br>carry<br>次近月（论文方法） | (3)<br>动量<br>主力合约 | (4)<br>carry<br>主力合约 |
+| | (1)<br>Momentum<br>times nearby-contract (thesis method) | (2)<br>carry<br>times nearby-contract (thesis method) | (3)<br>Momentum<br>dominant contract | (4)<br>carry<br>dominant contract |
 |---|---|---|---|---|
-| α（年化 %） | 14.02***<br>(3.11) | 6.33*<br>(1.77) | 1.14<br>(0.29) | 8.83**<br>(2.55) |
-| 平均因子 AVG | 0.065<br>(0.51) | 0.407***<br>(3.09) | -0.039<br>(-0.31) | 0.464***<br>(3.86) |
-| carry 因子 | 0.479***<br>(5.39) |  | 0.468***<br>(3.25) |  |
-| 动量因子 |  | 0.341***<br>(5.19) |  | 0.296***<br>(3.37) |
-| 样本数（月） | 218 | 218 | 240 | 240 |
+| α (annualized %) | 14.02***<br>(3.11) | 6.33*<br>(1.77) | 1.14<br>(0.29) | 8.83**<br>(2.55) |
+| Average factor AVG | 0.065<br>(0.51) | 0.407***<br>(3.09) | -0.039<br>(-0.31) | 0.464***<br>(3.86) |
+| carry factor | 0.479***<br>(5.39) |  | 0.468***<br>(3.25) |  |
+| Momentum factor |  | 0.341***<br>(5.19) |  | 0.296***<br>(3.37) |
+| Number of samples (months) | 218 | 218 | 240 | 240 |
 | R² | 0.192 | 0.265 | 0.153 | 0.266 |
-| 调整 R² | 0.185 | 0.258 | 0.146 | 0.260 |
+| Adjust R² | 0.185 | 0.258 | 0.146 | 0.260 |
 
-被解释变量为因子的月收益；α 为年化 %。carry 因子 = 最贴水 5 个 − 最升水 5 个，动量因子 = 过去 6 个月收益最高 5 个 − 最低 5 个，AVG = 全部品种等权做多。括号内为 Newey-West t 值；\*、\*\*、\*\*\* 分别表示 10%、5%、1% 显著。来源：Bakshi, Gao & Rossi，Management Science，2019 的复现。
+The explained variable is the monthly return of the factor; α is the annualized %. Carry factor = the highest discount 5 units − the highest premium 5 units, momentum factor = the highest monthly return of 6 units in the past 5 units − the lowest 5 units, AVG = all instruments are equally weighted and long. The Newey-West t values ​​are in parentheses; \*, \*\*, \*\*\* indicate that 10%, 5%, and 1% are significant respectively. Source: Bakshi, Gao & Rossi, Management Science, Reproduction of 2019.

@@ -1,10 +1,10 @@
-| | (1)<br>全样本 | (2)<br>全样本 | (3)<br>全样本 | (4)<br>全样本 | (5)<br>全样本 | (6)<br>全样本 | (7)<br>2010–2015 | (8)<br>2016–2026 |
+| | (1)<br>Full sample | (2)<br>Full sample | (3)<br>Full sample | (4)<br>Full sample | (5)<br>Full sample | (6)<br>Full sample | (7)<br>2010–2015 | (8)<br>2016–2026 |
 |---|---|---|---|---|---|---|---|---|
-| 整体基差 | -0.82**<br>(-2.54) | -0.90***<br>(-2.89) | -0.80**<br>(-2.48) | -0.91***<br>(-2.78) |  |  | -0.59<br>(-1.29) | -0.52<br>(-1.42) |
-| 整体持仓金额增长（12 个月） |  | 0.47*<br>(1.75) |  | 0.48<br>(1.60) |  |  | 0.48<br>(1.11) | 0.55**<br>(2.44) |
-| 整体持仓张数增长（12 个月） |  |  |  |  | 0.13<br>(0.44) | 0.22<br>(0.65) |  |  |
-| 过去 12 个月收益 |  |  | 0.17<br>(0.82) | -0.01<br>(-0.05) |  | 0.36<br>(1.49) |  |  |
-| 样本数（月） | 198 | 198 | 198 | 198 | 198 | 198 | 70 | 128 |
+| overall basis | -0.82**<br>(-2.54) | -0.90***<br>(-2.89) | -0.80**<br>(-2.48) | -0.91***<br>(-2.78) |  |  | -0.59<br>(-1.29) | -0.52<br>(-1.42) |
+| Overall open-interest notional growth (12 months) |  | 0.47*<br>(1.75) |  | 0.48<br>(1.60) |  |  | 0.48<br>(1.11) | 0.55**<br>(2.44) |
+| Growth in overall number of positions (12 months) |  |  |  |  | 0.13<br>(0.44) | 0.22<br>(0.65) |  |  |
+| Earnings over the past 12 months |  |  | 0.17<br>(0.82) | -0.01<br>(-0.05) |  | 0.36<br>(1.49) |  |  |
+| Number of samples (months) | 198 | 198 | 198 | 198 | 198 | 198 | 70 | 128 |
 | R² | 0.054 | 0.071 | 0.056 | 0.071 | 0.001 | 0.011 | 0.039 | 0.049 |
 
-被解释变量为下月商品整体收益（板块等权）；解释变量标准化，系数 = 每 1 个标准差对应的月收益（%）。括号内为 Newey-West t 值（滞后 12）；\*、\*\*、\*\*\* 分别表示 10%、5%、1% 显著。论文另有短期利率、期限利差、经济活动指数等控制变量，中国缺少对应数据，未纳入。来源：Hong & Yogo，Journal of Financial Economics，2012 的复现。
+The explained variable is the overall return of the commodity in the next month (equal weighting of sectors); the explanatory variable is standardized, and the coefficient = the monthly return (%) corresponding to 1 standard deviation. Newey-West t values ​​(lag 12) are in parentheses; \*, \*\*, \*\*\* indicate 10%, 5%, and 1% significance respectively. The paper also includes control variables such as short-term interest rates, term spreads, and economic activity index. China lacks corresponding data and is not included. Source: Reproduction of Hong & Yogo, Journal of Financial Economics, 2012.

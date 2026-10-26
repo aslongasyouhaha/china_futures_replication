@@ -1,7 +1,7 @@
-| | (1)<br>下月收益 |
+| | (1)<br>Next month’s income |
 |---|---|
-| 价格变化（未复权） | 0.125<br>(0.88) |
-| 换月展期收益 | 0.467***<br>(3.89) |
-| 当前 carry | 0.049<br>(0.53) |
+| Price changes (not reinstated) | 0.125<br>(0.88) |
+| Monthly roll returns | 0.467***<br>(3.89) |
+| current carry | 0.049<br>(0.53) |
 
-每月对下月收益做截面回归，再对系数取时间序列平均（Fama-MacBeth）；解释变量均标准化，系数 = 每 1 个标准差对应的下月收益（%）。三个变量同时进入回归。来源：Bakshi, Gao & Rossi，Management Science，2019 的复现（主力合约扩展部分）。
+Perform a cross-sectional regression on the next month's earnings every month, and then take the time series average (Fama-MacBeth) of the coefficients; the explanatory variables are all standardized, and the coefficient = the next month's earnings (%) corresponding to every 1 standard deviation. Three variables are entered into the regression simultaneously. Source: Bakshi, Gao & Rossi, Management Science, reproduction of 2019 (dominant contract extension).

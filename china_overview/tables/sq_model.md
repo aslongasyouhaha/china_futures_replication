@@ -1,9 +1,9 @@
-| | (1)<br>论文 | (2)<br>复现 |
+| | (1)<br>Thesis | (2)<br>Recurrence |
 |---|---|---|
-| 无反馈时的展期期权价值（Figure 1） | 约 3.10 | 3.10 |
-| ε = 0.95 时的期权价值 V+ / V−（Figure 1） | 11.25 / 8.06 | 11.25 / 8.06 |
-| WTI 2020-04-20 隐含失衡 ε | 0.87 | 0.874 |
-| LME 镍 2022-03-08 隐含失衡 ε | 0.9346 | 0.9344（剩余 1 天）；0.8361（按表中所写 1/4 年） |
-| 蒙特卡洛：近月跌破零的比例（μ = 0） | 61.0% | 61.5%（每天 12 步）；59.0%（每天 2 步） |
+| Roll option value without feedback (Figure 1) | About 3.10 | 3.10 |
+| Option value V+ / V− when ε = 0.95 (Figure 1) | 11.25 / 8.06 | 11.25 / 8.06 |
+| WTI 2020-04-20 Implied imbalance ε | 0.87 | 0.874 |
+| LME Nickel 2022-03-08 Implied Imbalance ε | 0.9346 | 0.9344 (1 day remaining); 0.8361 (1/4 year as written in the table) |
+| Monte Carlo: Proportion of nearby-contract falling below zero (μ = 0) | 61.0% | 61.5% (12 steps per day); 59.0% (2 steps per day) |
 
-镍的结果说明论文 Table 2 所写的剩余期限与实际计算不一致；蒙特卡洛比例随时间步长变细而上升。来源：Zimbidis & Sircar，arXiv 工作论文，2026 的复现。
+The results for Nickel indicate that the remaining period written in Table 2 of the paper is inconsistent with the actual calculation; the Monte Carlo scale increases as the time step becomes smaller. Source: Zimbidis & Sircar, arXiv working paper, replication 2026.
