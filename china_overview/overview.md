@@ -25,6 +25,8 @@ The correlation between the monthly returns of each version (calculated in this 
 
 ![Correlation of each version of market factors](figures/market_versions_corr.png)
 
+*English redraw of the historical figure using its displayed two-decimal correlations; no underlying data were re-estimated.*
+
 - The correlation between equal weighting, open-interest weighting, fixed pool 2 and Nanhua Index in each period is basically 0.86~0.98, and can be regarded as the same factor.
 - Fixed Pool 1 correlates 0.93–0.97 with the other versions before 2010. During 2016–2020, its correlations with the equal-weighted, open-interest-weighted, and Nanhua indices fall to 0.70–0.79: it excludes ferrous metals and most chemicals, which followed distinct trends during the supply-side reform.
 - Therefore, to compare different years, use fixed pool two; fixed pool one can only represent the "market of old instruments".
